@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -20,15 +21,16 @@ header {
 }
 
 .logo {
-  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 24px;
-  .logo-img {
-  height: 40px;
-  vertical-align: middle;
-
 }
 
-
+.logo-img {
+  height: 40px;
+  width: auto;
+  vertical-align: middle;
 }
 
 nav ul {
